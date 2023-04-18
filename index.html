@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador de texto - Challenge ONE</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="logo">
-        <img src="assets\logo.png" alt="W3Schools.com">
+      <img src="assets\logo.png" alt="Alura logo" />
     </div>
 
-    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+    <textarea
+      name="input-text"
+      id="input-text"
+      cols="500"
+      rows="500"
+      placeholder="Ingrese el texto aquí"
+      autofocus
+    ></textarea>
+
+    <div class="warning">
+      <img src="assets\exclamation-circle.png" alt="Exclamation circle" />
+      <p class="warning-text">Solo letras minúsculas y sin acentos.</p>
+    </div>
+
+    <div class="botones">
+      <button class="btn encriptar" type="submit">Encriptar</button>
+      <button class="btn desencriptar" type="submit">Desencriptar</button>
+    </div>
+
+    <div class="resultado">
+        <img class="muneco" src="assets\Muneco.svg" alt="Muñeco">
+        <p class="ningun">Ningún mensaje fue encontrado</p>
+        <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
