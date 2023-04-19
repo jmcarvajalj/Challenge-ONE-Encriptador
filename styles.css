@@ -66,8 +66,8 @@ body {
   gap: 8px;
 
   position: relative;
-  width: 229px;
-  height: 18px;
+  width: 230px;
+  height: 20px;
   left: 150px;
   top: 100px;
 }
@@ -84,10 +84,6 @@ body {
 
   color: #495057;
   opacity: 0.8;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .botones {
@@ -115,10 +111,6 @@ body {
 
   border-radius: 24px;
   border: 1px solid #0a3871;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .encriptar {
@@ -194,11 +186,6 @@ body {
   text-align: center;
 
   color: #343a40;
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 .instruccion {
@@ -215,9 +202,4 @@ body {
 
   text-align: center;
   color: #495057;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
